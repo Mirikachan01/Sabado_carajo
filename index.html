@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>No se que poner xd</title>
+    <style>
+        #boton1, #boton2 {
+            font-size: 20px; /* Aumenta el tamaño del texto */
+            padding: 10px 24px; /* Aumenta el tamaño del botón */
+            margin: 10px; /* Agrega margen alrededor de los botones */
+        }
+        #boton1 {
+            background-color: rgb(4, 248, 4);
+        }
+        #boton2 {
+            background-color: red;
+        }
+        .center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+        }
+    </style>
+</head>
+<body>
+    <h1>Vamos al VENTURA el sabado por la tarde?</h1>
+    <img src="imagenes/imagen.png.jpg" alt="">
+    <div class="center">
+        <button id="boton1" onclick="alert('responde por whatsapp xd')">Acepto</button>
+        <button id="boton2" onclick="alert('krjo DANIELA colabora')">Nell</button>
+    </div>
+    
+    <script>
+        document.getElementById("boton1").addEventListener("click", function() {
+            alert("responde por whatsapp xd");
+        });
+        document.getElementById("boton2").addEventListener("click", function() {
+            alert("krjo DANIELA colabora");
+        });
+    </script>
+</body>
+</html>
